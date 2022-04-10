@@ -28,40 +28,80 @@ html {
 }
 
 .score h1 {
-    font-weight: 300;
-    font-size: 1.6rem;
+  font-weight: 300;
+  font-size: 1.6rem;
 }
 
 .life-bar {
-    width: 80%;
-    height: 20px;
-    border: 1px solid #AAA;
+  width: 80%;
+  height: 20px;
+  border: 1px solid #aaa;
 }
 
 .life-bar .life {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    background-color: green;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: green;
 }
 
 .life-bar .life.danger {
-    background-color: #ff0000;
+  background-color: #ff0000;
 }
 
 /* Result */
 
 .result {
-    display: flex;
-    justify-content: center;
-    font-size: 1.3rem;
-    font-weight: 600;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 .result .win {
-    color: #008000;
+  color: #008000;
 }
 
 .result .lose {
-    color: #ff0000;
+  color: #ff0000;
+}
+
+/* BTN's */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin: 0px 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.new-game {
+  background-color: #4253af;
+  color: #ffffff;
+}
+
+.attack {
+  background-color: #e51c23;
+  color: #fff;
+}
+
+.especial-attack {
+  background-color: #ff9800;
+  color: #000;
+}
+
+.heal {
+  background-color: #259b24;
+  color: #fff;
+}
+
+.give-up {
+  background-color: #bbb;
+  color: #000;
 }
